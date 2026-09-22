@@ -58,7 +58,13 @@
   rebase = false
 
 [init]
-  defaultBranch = master
+	defaultBranch = main
 [user]
-	email = skashani.1999@gmail.com
-	name = Sina Naghizadeh Kashani
+	email = sina.kashani13@gmail.com
+	name = Sina Kashani
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
